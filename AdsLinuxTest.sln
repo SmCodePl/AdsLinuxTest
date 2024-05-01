@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdsLinuxTest", "AdsLinuxTest\AdsLinuxTest.csproj", "{5B9F66C5-9390-4706-99E4-C2047DA7899C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlcDataModel", "PlcDataModel\PlcDataModel.csproj", "{B0F7F81C-A877-415B-A986-7D5DC517A46E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B9F66C5-9390-4706-99E4-C2047DA7899C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9F66C5-9390-4706-99E4-C2047DA7899C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9F66C5-9390-4706-99E4-C2047DA7899C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9F66C5-9390-4706-99E4-C2047DA7899C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F7F81C-A877-415B-A986-7D5DC517A46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F7F81C-A877-415B-A986-7D5DC517A46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F7F81C-A877-415B-A986-7D5DC517A46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F7F81C-A877-415B-A986-7D5DC517A46E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
