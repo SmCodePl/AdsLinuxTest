@@ -172,9 +172,9 @@ internal class OpcUaTestService: IOpcUaTest
 
         public void DoEvent()
         {
-            throw new NotImplementedException();
+           HandleRequest();
         }
-        protected void HandleRequest()        
+        private void HandleRequest()        
         {
             if (_session != null && _session.Connected)
             {
@@ -321,14 +321,10 @@ internal class OpcUaTestService: IOpcUaTest
 
                 try
                 {
-                    while(true)
-                    {
-                        
                         // Read the value of the OPC nCheckNetwork
                         checkNetworkValue = _session.ReadValue(nCheckNetwork);
                         echoCheckNetworkValue.Value = new Variant(checkNetworkValue.Value);
                         await _session.WriteAsync(null, new WriteValueCollection { new WriteValue { NodeId = new NodeId("ns=4;s=Global.stOpcCheckNetwork.nEchoCheckNetwork"), AttributeId = Attributes.Value, Value = echoCheckNetworkValue } }, CancellationToken.None);
-                    }
 
                 }catch(Exception e)
                 {
