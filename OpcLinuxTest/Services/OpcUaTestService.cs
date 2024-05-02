@@ -109,7 +109,29 @@ internal class OpcUaTestService: IOpcUaTest
 
                 // List of preferred locales
                 List<string> preferredLocales = null;
-           
+                
+                UInt16 keySize = 2048; //must be multiples of 1024
+                DateTime startTime = DateTime.Now;
+                string certPassword = "123";
+                UInt16 lifeTime = 24;
+                UInt16 hashSize = 2048;    
+
+
+                    config.SecurityConfiguration.ApplicationCertificate = new(CertificateFactory.CreateCertificate(
+                    config.SecurityConfiguration.ApplicationCertificate.StoreType,
+                    config.SecurityConfiguration.ApplicationCertificate.StorePath,
+                    certPassword,
+                    config.ApplicationUri,
+                    config.ApplicationName,
+                    config.SecurityConfiguration.ApplicationCertificate.SubjectName,
+                    preferredLocales,
+                    keySize,
+                    startTime,
+                    lifeTime,
+                    hashSize
+                    ));
+
+                    application.CheckApplicationInstanceCertificate(false, 2048).GetAwaiter().GetResult();
                 try
                 {
                     // Create the session
