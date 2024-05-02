@@ -1,0 +1,3 @@
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/bin/Release/net8.0/publish/PlcDataModel.dll
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/bin/Release/net8.0/publish/PlcDataModel.deps.json
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/bin/Release/net8.0/publish/PlcDataModel.pdb

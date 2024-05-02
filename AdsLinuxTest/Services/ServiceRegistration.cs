@@ -1,11 +1,8 @@
 
-using System.Configuration;
 using AdsTestLinux.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Microsoft.VisualBasic;
-using PlcDataModel.Interfaces;
 using TwinCAT.Ads;
 
 namespace AdsTestLinux;

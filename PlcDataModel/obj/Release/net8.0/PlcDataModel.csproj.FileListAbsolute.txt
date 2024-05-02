@@ -1,0 +1,12 @@
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/bin/Release/net8.0/PlcDataModel.deps.json
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/bin/Release/net8.0/PlcDataModel.dll
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/bin/Release/net8.0/PlcDataModel.pdb
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/obj/Release/net8.0/PlcDataModel.GeneratedMSBuildEditorConfig.editorconfig
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/obj/Release/net8.0/PlcDataModel.AssemblyInfoInputs.cache
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/obj/Release/net8.0/PlcDataModel.AssemblyInfo.cs
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/obj/Release/net8.0/PlcDataModel.csproj.CoreCompileInputs.cache
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/obj/Release/net8.0/PlcDataModel.sourcelink.json
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/obj/Release/net8.0/PlcDataModel.dll
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/obj/Release/net8.0/refint/PlcDataModel.dll
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/obj/Release/net8.0/PlcDataModel.pdb
+/home/ads/Repository/AdsLinuxTest/PlcDataModel/obj/Release/net8.0/ref/PlcDataModel.dll

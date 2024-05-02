@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdsLinuxTest", "AdsLinuxTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlcDataModel", "PlcDataModel\PlcDataModel.csproj", "{B0F7F81C-A877-415B-A986-7D5DC517A46E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpcLinuxTest", "OpcLinuxTest\OpcLinuxTest.csproj", "{81EB8C65-C731-443E-B961-232AB68270DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{B0F7F81C-A877-415B-A986-7D5DC517A46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0F7F81C-A877-415B-A986-7D5DC517A46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0F7F81C-A877-415B-A986-7D5DC517A46E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EB8C65-C731-443E-B961-232AB68270DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EB8C65-C731-443E-B961-232AB68270DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EB8C65-C731-443E-B961-232AB68270DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EB8C65-C731-443E-B961-232AB68270DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlcDataModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27b4319cafd42b7ff89c27589eedb0a20e8064f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlcDataModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlcDataModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

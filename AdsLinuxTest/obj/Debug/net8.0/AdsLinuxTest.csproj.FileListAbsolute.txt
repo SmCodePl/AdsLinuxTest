@@ -95,3 +95,4 @@
 /home/ads/Repository/AdsLinuxTest/AdsLinuxTest/obj/Debug/net8.0/AdsLinuxTest.csproj.CopyComplete
 /home/ads/Repository/AdsLinuxTest/AdsLinuxTest/bin/Debug/net8.0/PlcDataModel.dll
 /home/ads/Repository/AdsLinuxTest/AdsLinuxTest/bin/Debug/net8.0/PlcDataModel.pdb
+/home/ads/Repository/AdsLinuxTest/AdsLinuxTest/obj/Debug/net8.0/AdsLinuxTest.sourcelink.json
