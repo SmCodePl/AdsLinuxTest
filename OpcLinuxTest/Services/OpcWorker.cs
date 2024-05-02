@@ -22,12 +22,11 @@ namespace OpcLinuxTest
          {
             while (!stoppingToken.IsCancellationRequested)
             {
-                await Task.Delay(100);
                 if(_session != null && _session.Connected)
                 {
                     Stopwatch stopwatch = Stopwatch.StartNew();
-                   // await _testService.NetworkCheck().ConfigureAwait(false);
-                    //_testService.DoEvent();
+                    await _testService.NetworkCheck().ConfigureAwait(false);
+                    _testService.DoEvent();
                     stopwatch.Stop();
 
                     TimeSpan timeTaken = stopwatch.Elapsed;
@@ -44,9 +43,9 @@ namespace OpcLinuxTest
         {
             try
             {
-                await Task.Delay(100);
+                
                  _session = await _testService.Connect();
-                // _ = Task.Run(async () => await _testService.NetworkCheck());
+                 _ = Task.Run(async () => await _testService.NetworkCheck());
             }
             catch (Exception ex)
             {

@@ -53,4 +53,3 @@
 /home/ads/Repository/AdsLinuxTest/OpcLinuxTest/bin/Debug/net8.0/Opc.Ua.Security.Certificates.dll
 /home/ads/Repository/AdsLinuxTest/OpcLinuxTest/bin/Debug/net8.0/PlcDataModel.dll
 /home/ads/Repository/AdsLinuxTest/OpcLinuxTest/bin/Debug/net8.0/PlcDataModel.pdb
-/home/ads/Repository/AdsLinuxTest/OpcLinuxTest/obj/Debug/net8.0/OpcLinuxTest.csproj.GenerateResource.cache

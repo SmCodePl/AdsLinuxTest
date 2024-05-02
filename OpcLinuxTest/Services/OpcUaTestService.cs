@@ -109,9 +109,7 @@ internal class OpcUaTestService: IOpcUaTest
 
                 // List of preferred locales
                 List<string> preferredLocales = null;
-
-               // var appCertificate = new X509Certificate2(@"./Repository/Cert/endpoint.key");
-               // application.ApplicationConfiguration.SecurityConfiguration.ApplicationCertificate = new(appCertificate);
+           
                 try
                 {
                     // Create the session
